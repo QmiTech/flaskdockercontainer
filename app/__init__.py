@@ -4,8 +4,8 @@ from flask_uploads import UploadSet, configure_uploads, IMAGES
 import boto3
 import os
 
-ACCESS_ID = 'TMGWNS4NFHSKBSXE5O7T'
-SECRET_K = 'HENkugL1IH0LYZ9RdjtVcD4T0+Z5R3IpeDkbWM2RLeM'
+ACCESS_ID = ''
+SECRET_K = ''
 
 photos = UploadSet('photos',IMAGES)
 session = boto3.session.Session()
